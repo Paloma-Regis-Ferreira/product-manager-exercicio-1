@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.paloma.product_manager.domain.service.ProductDomainServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-07-01T03:36:22" hostname="DESKTOP-1G6E6NJ" time="1.175">
+  <properties/>
+  <testcase name="shouldThrowExceptionWhenProductDoesNotExists()" classname="com.paloma.product_manager.domain.service.ProductDomainServiceTest" time="0.897"/>
+  <testcase name="shouldUpdateWithSuccessWhenProductExists()" classname="com.paloma.product_manager.domain.service.ProductDomainServiceTest" time="0.033"/>
+  <testcase name="shouldNotUpdateWhenProductDoesNotExists()" classname="com.paloma.product_manager.domain.service.ProductDomainServiceTest" time="0.045"/>
+  <testcase name="shouldDeleteWithSuccessWhenProductExists()" classname="com.paloma.product_manager.domain.service.ProductDomainServiceTest" time="0.045"/>
+  <testcase name="shouldReturnOptionalEmptyWhenProductWithNameDoesNotExists()" classname="com.paloma.product_manager.domain.service.ProductDomainServiceTest" time="0.037"/>
+  <testcase name="shouldThrowExceptionWhenDeleteAProductDoesNotExists()" classname="com.paloma.product_manager.domain.service.ProductDomainServiceTest" time="0.061"/>
+  <system-out><![CDATA[2024-07-01T00:36:23.692-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.d.service.ProductDomainService     : M findById, id-1
+2024-07-01T00:36:23.785-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.d.service.ProductDomainService     : M update, id-1 and updated product=ProductEntity(id=1, name=Product name, description=Product description, price=10.0)
+2024-07-01T00:36:23.789-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.d.service.ProductDomainService     : M findById, id-1
+2024-07-01T00:36:23.812-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.d.service.ProductDomainService     : M update, id-1 and updated product=ProductEntity(id=1, name=Product name, description=Product description, price=10.0)
+2024-07-01T00:36:23.815-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.d.service.ProductDomainService     : M findById, id-1
+2024-07-01T00:36:23.875-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.d.service.ProductDomainService     : M delete, id-1
+2024-07-01T00:36:23.879-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.d.service.ProductDomainService     : M findById, id-1
+2024-07-01T00:36:23.912-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.d.service.ProductDomainService     : M findByName, name-Any
+2024-07-01T00:36:23.978-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.d.service.ProductDomainService     : M delete, id-1
+2024-07-01T00:36:23.989-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.d.service.ProductDomainService     : M findById, id-1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

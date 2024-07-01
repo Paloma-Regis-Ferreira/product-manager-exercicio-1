@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.paloma.product_manager.application.ProductServiceTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-07-01T03:36:22" hostname="DESKTOP-1G6E6NJ" time="0.687">
+  <properties/>
+  <testcase name="shouldDeleteWithSuccess()" classname="com.paloma.product_manager.application.ProductServiceTest" time="0.417"/>
+  <testcase name="shouldReturnDtoListWhenCallGetAllProductsAndEntityDescriptionIsNull()" classname="com.paloma.product_manager.application.ProductServiceTest" time="0.029"/>
+  <testcase name="shouldReturnDtoWhenEntityIdExists()" classname="com.paloma.product_manager.application.ProductServiceTest" time="0.031"/>
+  <testcase name="shouldCreateProductWhitTreatedName()" classname="com.paloma.product_manager.application.ProductServiceTest" time="0.044"/>
+  <testcase name="shouldCreateProductWithSuccessWhenProductNameDoesNotExistInDatabase()" classname="com.paloma.product_manager.application.ProductServiceTest" time="0.032"/>
+  <testcase name="shouldUpdateProductWithSuccessAndFinalNameTreated()" classname="com.paloma.product_manager.application.ProductServiceTest" time="0.032"/>
+  <testcase name="shouldNotCreateProductWhenProductNameAlreadyExistsInDatabase()" classname="com.paloma.product_manager.application.ProductServiceTest" time="0.049"/>
+  <testcase name="shouldReturnDtoListWhenCallGetAllProducts()" classname="com.paloma.product_manager.application.ProductServiceTest" time="0.019"/>
+  <system-out><![CDATA[2024-07-01T00:36:22.537-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M deleteProduct, id=1
+2024-07-01T00:36:22.572-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M getAllProducts
+2024-07-01T00:36:22.608-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M getProductById, id=1
+2024-07-01T00:36:22.635-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M createProduct, ProductDTO=ProductDTO(id=null, name= Prõdúçt-nãme , description=Product description, price=10.0)
+2024-07-01T00:36:22.664-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M treatmentString, string received= Prõdúçt-nãme  and string treated=Product name
+2024-07-01T00:36:22.697-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M createProduct, ProductDTO=ProductDTO(id=null, name=Product name, description=Product description, price=10.0)
+2024-07-01T00:36:22.700-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M treatmentString, string received=Product name and string treated=Product name
+2024-07-01T00:36:22.733-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M updateProduct, ProductDTO=ProductDTO(id=null, name= Prõdúçt-nãme , description=Product description, price=10.0) and id=1
+2024-07-01T00:36:22.737-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M treatmentString, string received= Prõdúçt-nãme  and string treated=Product name
+2024-07-01T00:36:22.772-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M createProduct, ProductDTO=ProductDTO(id=1, name=Product name, description=Product description, price=10.0)
+2024-07-01T00:36:22.774-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M treatmentString, string received=Product name and string treated=Product name
+2024-07-01T00:36:22.775-03:00 ERROR 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M createProduct, product with name=Product name already exists
+2024-07-01T00:36:22.806-03:00  INFO 12880 --- [product-manager] [    Test worker] c.p.p.application.ProductService         : M getAllProducts
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

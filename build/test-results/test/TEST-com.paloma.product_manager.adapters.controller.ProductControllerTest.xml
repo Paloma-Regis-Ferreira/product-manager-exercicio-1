@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.paloma.product_manager.adapters.controller.ProductControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-07-01T03:36:18" hostname="DESKTOP-1G6E6NJ" time="3.122">
+  <properties/>
+  <testcase name="testCreateProduct()" classname="com.paloma.product_manager.adapters.controller.ProductControllerTest" time="2.664"/>
+  <testcase name="testUpdateProduct()" classname="com.paloma.product_manager.adapters.controller.ProductControllerTest" time="0.102"/>
+  <testcase name="testGetProductById()" classname="com.paloma.product_manager.adapters.controller.ProductControllerTest" time="0.098"/>
+  <testcase name="testDeleteProduct()" classname="com.paloma.product_manager.adapters.controller.ProductControllerTest" time="0.046"/>
+  <testcase name="testGetAllProducts()" classname="com.paloma.product_manager.adapters.controller.ProductControllerTest" time="0.2"/>
+  <system-out><![CDATA[2024-07-01T00:36:19.514-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-07-01T00:36:19.515-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-01T00:36:19.528-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-07-01T00:36:21.658-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-07-01T00:36:21.658-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-01T00:36:21.659-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-01T00:36:21.757-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-07-01T00:36:21.758-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-01T00:36:21.775-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 16 ms
+2024-07-01T00:36:21.835-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-07-01T00:36:21.836-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-01T00:36:21.837-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-01T00:36:21.924-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-07-01T00:36:21.925-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-01T00:36:21.925-03:00  INFO 12880 --- [product-manager] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
