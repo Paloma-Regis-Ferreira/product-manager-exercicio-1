@@ -18,38 +18,38 @@ A aplicação é configurada para rodar na porta **8080** por padrão. Portanto,
 
 A estrutura do projeto é organizada da seguinte forma:
 
-product-service/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/
-│ │ │ └── example/
-│ │ │ └── productservice/
-│ │ │ ├── ProductServiceApplication.java
-│ │ │ ├── adapters/
-│ │ │ │ ├── controller/
-│ │ │ │ │ └── ProductController.java
-│ │ │ │ ├── dto/
-│ │ │ │ │ └── ProductDTO.java
-│ │ │ │ ├── mapper/
-│ │ │ │ │ └── ProductMapper.java
-│ │ │ │ └── repository/
-│ │ │ │ ├── ProductRepository.java
-│ │ │ ├── application/
-│ │ │ │ └── service/
-│ │ │ │ ├── ProductService.java
-│ │ │ │ └── ProductServiceUseCase.java
-│ │ │ ├── domain/
-│ │ │ │ ├── exception/
-│ │ │ │ │ ├── ErrorResponse.java
-│ │ │ │ │ ├── ProductAlreadyExistsException.java
-│ │ │ │ │ └── ProductNotFoundException.java
-│ │ │ │ ├── model/
-│ │ │ │ │ └── ProductEntity.java
-│ │ │ │ ├── repository/
-│ │ │ │ │ └── ProductModelUseCase.java
-│ │ │ │ └── service/
-│ │ │ │ └── ProductDomainService.java
+product-service/<br>
+├── src/<br>
+│ ├── main/<br>
+│ │ ├── java/<br>
+│ │ │ └── com/<br>
+│ │ │ └── example/<br>
+│ │ │ └── productservice/<br>
+│ │ │ ├── ProductServiceApplication.java<br>
+│ │ │ ├── adapters/<br>
+│ │ │ │ ├── controller/<br>
+│ │ │ │ │ └── ProductController.java<br>
+│ │ │ │ ├── dto/<br>
+│ │ │ │ │ └── ProductDTO.java<br>
+│ │ │ │ ├── mapper/<br>
+│ │ │ │ │ └── ProductMapper.java<br>
+│ │ │ │ └── repository/<br>
+│ │ │ │ ├── ProductRepository.java<br>
+│ │ │ ├── application/<br>
+│ │ │ │ └── service/<br>
+│ │ │ │ ├── ProductService.java<br>
+│ │ │ │ └── ProductServiceUseCase.java<br>
+│ │ │ ├── domain/<br>
+│ │ │ │ ├── exception/<br>
+│ │ │ │ │ ├── ErrorResponse.java<br>
+│ │ │ │ │ ├── ProductAlreadyExistsException.java<br>
+│ │ │ │ │ └── ProductNotFoundException.java<br>
+│ │ │ │ ├── model/<br>
+│ │ │ │ │ └── ProductEntity.java<br>
+│ │ │ │ ├── repository/<br>
+│ │ │ │ │ └── ProductModelUseCase.java<br>
+│ │ │ │ └── service/<br>
+│ │ │ │ └── ProductDomainService.java<br>
 
 
 ## Requisitos para Rodar a Aplicação
