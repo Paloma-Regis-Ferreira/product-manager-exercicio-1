@@ -20,36 +20,36 @@ A estrutura do projeto é organizada da seguinte forma:
 
 product-service/
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── productservice/
-│   │   │               ├── ProductServiceApplication.java
-│   │   │               ├── adapters/
-│   │   │               │   ├── controller/
-│   │   │               │   │   └── ProductController.java
-│   │   │               │   ├── dto/
-│   │   │               │   │   └── ProductDTO.java
-│   │   │               │   ├── mapper/
-│   │   │               │   │   └── ProductMapper.java
-│   │   │               │   └── repository/
-│   │   │               │       ├── ProductRepository.java
-│   │   │               ├── application/
-│   │   │               │   └── service/
-│   │   │               │       ├── ProductService.java
-│   │   │               │       └── ProductServiceUseCase.java
-│   │   │               ├── domain/
-│   │   │               │   ├── exception/
-│   │   │               │   │   ├── ErrorResponse.java
-│   │   │               │   │   ├── ProductAlreadyExistsException.java
-│   │   │               │   │   └── ProductNotFoundException.java
-│   │   │               │   ├── model/
-│   │   │               │   │   └── ProductEntity.java
-│   │   │               │   ├── repository/
-│   │   │               │   │   └── ProductModelUseCase.java
-│   │   │               │   └── service/
-│   │   │               │       └── ProductDomainService.java
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── com/
+│ │ │ └── example/
+│ │ │ └── productservice/
+│ │ │ ├── ProductServiceApplication.java
+│ │ │ ├── adapters/
+│ │ │ │ ├── controller/
+│ │ │ │ │ └── ProductController.java
+│ │ │ │ ├── dto/
+│ │ │ │ │ └── ProductDTO.java
+│ │ │ │ ├── mapper/
+│ │ │ │ │ └── ProductMapper.java
+│ │ │ │ └── repository/
+│ │ │ │ ├── ProductRepository.java
+│ │ │ ├── application/
+│ │ │ │ └── service/
+│ │ │ │ ├── ProductService.java
+│ │ │ │ └── ProductServiceUseCase.java
+│ │ │ ├── domain/
+│ │ │ │ ├── exception/
+│ │ │ │ │ ├── ErrorResponse.java
+│ │ │ │ │ ├── ProductAlreadyExistsException.java
+│ │ │ │ │ └── ProductNotFoundException.java
+│ │ │ │ ├── model/
+│ │ │ │ │ └── ProductEntity.java
+│ │ │ │ ├── repository/
+│ │ │ │ │ └── ProductModelUseCase.java
+│ │ │ │ └── service/
+│ │ │ │ └── ProductDomainService.java
 
 
 ## Requisitos para Rodar a Aplicação
